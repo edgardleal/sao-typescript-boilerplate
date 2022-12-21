@@ -12,6 +12,7 @@
     "saofile.js",
     "template"
   ],
+  "keywords": ["sao-generator", "scaffolding", "sao"],
   "scripts": {
     "test": "ava"
   },
