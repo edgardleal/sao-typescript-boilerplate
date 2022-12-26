@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "test:coverage": "yarn test --coverage --coverageReporters html",
     "build": "tsc",
     "lint": "eslint  './**/*.ts'"
   },
