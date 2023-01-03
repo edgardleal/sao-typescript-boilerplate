@@ -13,6 +13,9 @@
     "lint": "eslint .",
     "lint:staged": "yarn lint-staged"
   },
+  "lint-staged": {
+    "*.ts": "yarn eslint"
+  },
   "devDependencies": {
     "@types/google-spreadsheet": "^3.0.0",
     "lint-staged": "^13.1.0",
