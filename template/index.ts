@@ -3,19 +3,19 @@
  *
  * @module index.ts
  */
-import * as sourceMapSupport from 'source-map-support'
+import * as sourceMapSupport from "source-map-support";
 
-sourceMapSupport.install()
+sourceMapSupport.install();
 
-import Logger from './src/logger'
+import Logger from "./src/logger";
 
 /**
  * A Dummy function to be tested
  */
 export default async function dummy(): Promise<boolean> {
-    return true
+	return true;
 }
 
 (async () => {
-    Logger.info('Done.')
-})()
+	Logger.info("Done.");
+})();

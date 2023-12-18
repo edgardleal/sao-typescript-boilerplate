@@ -4,8 +4,8 @@
  *
  * Distributed under terms of the MIT license.
  */
-import pino from 'pino'
+import pino from "pino";
 
-const Logger = pino()
+const Logger = pino();
 
-export default Logger
+export default Logger;
